@@ -32,7 +32,8 @@ Expected Output:
 
 <details>
   <summary><i>Solution</i></summary>
-```
+  <b>
+```python
 import json
 
 trialDataJson = """[ 
@@ -63,6 +64,7 @@ except Exception as e:
 dataList = [item.get('patient') for item in data]
 print(dataList)
 ```
+</b>
 </details>
 
 
