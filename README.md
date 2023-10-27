@@ -74,7 +74,9 @@ print(dataList)
 
 Source data:
 
-`sample_list = [87, 45, 41, 65, 94, 41, 99, 94]`
+```python
+sample_list = [87, 45, 41, 65, 94, 41, 99, 94]
+```
 
 Expected Outcome:
 
@@ -88,7 +90,7 @@ max: 99
 <details>
   <summary><i>Solution</i></summary>
 
-```
+```python
 sample_list = [87, 52, 44, 53, 54, 87, 52, 53]
 
 print("Original list", sample_list)
