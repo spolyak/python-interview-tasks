@@ -32,7 +32,7 @@ Expected Output:
 
 <details>
   <summary><i>Solution</i></summary>
-  <b>
+
 ```python
 import json
 
@@ -64,8 +64,9 @@ except Exception as e:
 dataList = [item.get('patient') for item in data]
 print(dataList)
 ```
-</b>
+
 </details>
+
 
 
 ## Task 2: Remove duplicates from a list and create a tuple and find the minimum and maximum number
