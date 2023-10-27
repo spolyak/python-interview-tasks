@@ -6,6 +6,7 @@ Here are two simple python programming tasks we would like you to implement usin
 
 Source JSON data:
 
+```json
  [ 
    { 
       "id":1,
@@ -24,11 +25,11 @@ Source JSON data:
       ]
    }
 ]
-
+```
 
 Expected Output:
 
-["Steve", "Allen"]
+`["Steve", "Allen"]`
 
 <details>
   <summary><i>Solution</i></summary>
@@ -68,23 +69,25 @@ print(dataList)
 </details>
 
 
-
 ## Task 2: Remove duplicates from a list and create a tuple and find the minimum and maximum number
 
 
 Source data:
 
-sample_list = [87, 45, 41, 65, 94, 41, 99, 94]
+`sample_list = [87, 45, 41, 65, 94, 41, 99, 94]`
 
 Expected Outcome:
 
+```
 unique items [87, 45, 41, 65, 99]
 tuple (87, 45, 41, 65, 99)
 min: 41
 max: 99
+```
 
 <details>
   <summary><i>Solution</i></summary>
+
 ```
 sample_list = [87, 52, 44, 53, 54, 87, 52, 53]
 
@@ -99,4 +102,5 @@ print("tuple ", t)
 print("Minimum number is: ", min(t))
 print("Maximum number is: ", max(t))
 ```
+
 </details>
