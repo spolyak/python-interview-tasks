@@ -81,17 +81,18 @@ sample_list = [87, 45, 41, 65, 94, 41, 99, 94]
 Expected Outcome:
 
 ```
-unique items [87, 45, 41, 65, 99]
-tuple (87, 45, 41, 65, 99)
-min: 41
-max: 99
+Original list [87, 45, 41, 65, 94, 41, 99, 94]
+unique list [65, 99, 41, 45, 87, 94]
+tuple  (65, 99, 41, 45, 87, 94)
+Minimum number is:  41
+Maximum number is:  99
 ```
 
 <details>
   <summary><i>Solution</i></summary>
 
 ```python
-sample_list = [87, 52, 44, 53, 54, 87, 52, 53]
+sample_list = [87, 45, 41, 65, 94, 41, 99, 94]
 
 print("Original list", sample_list)
 
