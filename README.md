@@ -58,7 +58,7 @@ trialDataJson = """[
 
 data = []
 try:
-    data = json.loads(sampleJson)
+    data = json.loads(trialDataJson)
 except Exception as e:
     print(e)
 
